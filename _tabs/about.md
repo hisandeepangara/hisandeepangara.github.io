@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# Sandeep Angara
+### Dynamics 365 Finance & Operations and Power Platform Developer
+
+## Experience
+___
+### Associate Technical Consultant - Argano (Nov 2022 - Present)

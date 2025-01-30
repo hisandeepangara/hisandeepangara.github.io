@@ -16,7 +16,7 @@ timezone: Asia/Calcutta
 
 title: Sandeep Angara # the main title
 
-tagline: D365 ERP + Power Platform Blog # it will display as the subtitle
+tagline: Blogging the Power Platform Tips, Tricks, and Know-hows # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

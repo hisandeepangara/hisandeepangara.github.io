@@ -16,7 +16,6 @@ Here are the necessary settings and tweaks to ensure a smooth transition between
 
 ### Allow switching to another topic
 1. Select the adaptive card node that asks questions / expect user to respond.
-
 2. Click three dots and click on properties
 3. Enable the **"Allow switching to another topic"** setting
 4. In the **Only Selected Topics** dropdown, ideally select all the topics, else select only those topics that you feel users can be swithced to skipping the adaptive card.
@@ -39,7 +38,6 @@ You might think we've already selected all the topics in the Adaptive Card prope
 We can customize the "Escalate" topic by adding a "Generative Answers" node and selecting classic data or knowledge sources to respond to the user's query. To do this, follow the steps below:
 
 1. Head to "Escalate" topic
-
 2. Add an action Advanced > Generative answers
 3. Provide the input "Activity.Text" from System variables
 4. In the properties of this node, select either of Classic data or Knowledge sources you wish to answer the user's question. 

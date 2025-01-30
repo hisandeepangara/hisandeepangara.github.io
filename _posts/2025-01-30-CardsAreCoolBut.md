@@ -9,7 +9,7 @@ tags: [copilotstudio]
 ![alt text](/assets/image.png)
 
 ## Challenge
-Makers and developers use Adaptive Cards to provide users with an interactive UI in Copilot Studio. While messages with Adaptive Cards work fine, issues arise when using them to ask questions. When the **Ask with Adaptive Card** node is used to collect input, the card naturally waits for the user to respond. However, users might not realize that the card is awaiting their input. As a result, some may start entering other prompts, trying to shift the conversation to a different topic or action within Copilot Studio. This can lead to failures if certain settings are not enabled and necessary tweaks are not made.
+Makers and developers use Adaptive Cards to provide users with an interactive UI in Copilot Studio. While messages with Adaptive Cards work fine, issues arise when using them to ask questions. When the **"Ask with Adaptive Card"** node is used to collect input, the card naturally waits for the user to respond. However, users might not realize that the card is awaiting their input. As a result, some may start entering other prompts, trying to shift the conversation to a different topic or action within Copilot Studio. This can lead to failures if certain settings are not enabled and necessary tweaks are not made.
 
 
 Here are the necessary settings and tweaks to ensure a smooth transition between a topic using Adaptive Cards for input and other topics in Copilot Studio
@@ -18,8 +18,8 @@ Here are the necessary settings and tweaks to ensure a smooth transition between
 1. Select the adaptive card node that asks questions / expect user to respond.
 2. Click three dots and click on properties
 3. Enable the **"Allow switching to another topic"** setting
-4. In the **Only Selected Topics** dropdown, ideally select all the topics, else select only those topics that you feel users can be swithced to skipping the adaptive card.
-5. For the setting **How many reprmpts** setting, it is recommended to have 'Dont repeat'
+4. In the **"Only Selected Topics"** dropdown, ideally select all the topics, else select only those topics that you feel users can be swithced to skipping the adaptive card.
+5. For the setting **"How many reprompts"** setting, it is recommended to have 'Dont repeat'
 
 ![alt text](/assets/SwitchTopics.png)
 
@@ -27,7 +27,7 @@ Here are the necessary settings and tweaks to ensure a smooth transition between
 
 ### End conversation
 
-Now, users can successfully switch to another topic that the copilot recognizes based on intent. For example, if the user is in the Greeting topic, where an adaptive card is waiting for input, but they suddenly decide to provide feedback by entering a prompt like "Feedback" or "I want to provide Feedback," the system will redirect them to the Feedback topic, as long as it’s configured as mentioned in the settings above. However, when the feedback topic reaches its last node, it may prompt the same adaptive card where the user left off, which could create a poor experience. To avoid this, ensure that the **End Conversation** node is used appropriately in these topics to properly conclude the conversation.
+Now, users can successfully switch to another topic that the copilot recognizes based on intent. For example, if the user is in the Greeting topic, where an adaptive card is waiting for input, but they suddenly decide to provide feedback by entering a prompt like "Feedback" or "I want to provide Feedback," the system will redirect them to the Feedback topic, as long as it’s configured as mentioned in the settings above. However, when the feedback topic reaches its last node, it may prompt the same adaptive card where the user left off, which could create a not so good experience. To avoid this, ensure that the **"End Conversation"** node is used appropriately in these topics to properly conclude the conversation.
 
 ![alt text](/assets/EndConvo.png)
 

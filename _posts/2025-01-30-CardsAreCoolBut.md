@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Looping in copilot studio
+title: Cards Are Cool, But Some People Just Wanna Type
 description: Cards Are Cool, But Some People Just Wanna Type
 date: 30-01-2025
 categories: [Copilot Studio, Adaptive Cards]

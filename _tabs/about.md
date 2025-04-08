@@ -7,9 +7,11 @@ order: 4
 # Sandeep Angara
 ` Power Platform | Dynamics 365 Fin & Ops | Web Technologies `
 
-Seasoned developer specializing in building low-code business applications and customizing ERP, with an expertise in Microsoft Power Platform and Dynamics 365 Finance and Operations. An engaged speaker at user groups and a motivated professional aspiring to make a meaningful impact in the community. 
+A seasoned business applications developer specializing in the Microsoft Power Platform, building impactful low-code solutions. My expertise extends to customizing and integrating Dynamics 365 Finance & Operations. I'm particularly excited about building custom agents with Copilot Studio. 
 
-[**LinkedIn**](https://linkedin.com/in/sandeep-angara) | [**Sessionize**](https://sessionize.com/sandeep-angara/)
+Alongside, I'm a dedicated community contributor, actively speaking at events, organizing meetups, and sharing knowledge. As an open-source enthusiast, I believe in collaborative innovation and the power of shared resources
+
+[**LinkedIn**](https://linkedin.com/in/sandeep-angara) | [**Sessionize**](https://sessionize.com/sandeep-angara/) | [**GitHub**](https://github.com/hisandeepangara) | [**Credly**](https://www.credly.com/users/sandeep-angara)
 
 ## Experience
 

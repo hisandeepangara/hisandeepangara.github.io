@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Looping in Copilot Studio
-description: Loop through array of records and perform actions similar to Apply to each in Flows
+title: Here's how to loop through arrays in Copilot Studio
+description: Copilot Studio doesn't have a built-in Apply-to-Each like Power Automate, but you can still loop through arrays and lists. This guide shows you how to use Power FX and Go-to-Step navigation to process multiple items
 date: 14-06-2025
 categories: [Copilot Studio]
 tags: [copilotstudio, arrays, looping]

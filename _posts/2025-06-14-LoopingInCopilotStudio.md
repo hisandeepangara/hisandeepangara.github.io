@@ -6,10 +6,10 @@ date: 14-06-2025
 categories: [Copilot Studio]
 tags: [copilotstudio, arrays, looping]
 ---
-![alt text](/assets/image.png)
+![alt text](/assets/loop.jpg)
 
 ## Challenge
-
+Releasing tomorrow
 
 
 

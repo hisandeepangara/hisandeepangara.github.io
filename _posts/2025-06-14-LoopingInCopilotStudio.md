@@ -49,7 +49,7 @@ Working with collections of data is fundamental to application development, and 
     ```
 - Go To step: Insert Go To step from Topic management and select the node "Incement LoopIndex by 1""
 
-### Complete YAML topic 
+## Complete YAML topic 
 ```
 kind: AdaptiveDialog
 beginDialog:
@@ -263,7 +263,7 @@ beginDialog:
       id: idBfht
 ```
 
-### Preview feature 
+## Preview feature 
 
 A preview feature "Loop through a list" is available. To try this, head to "https://copilotstudio.preview.microsoft.com/"
 ![alt text](/assets/image-4.png)

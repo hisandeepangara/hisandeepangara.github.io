@@ -11,7 +11,7 @@ tags: [copilotstudio, arrays, looping]
 ## Challenge
 Working with collections of data is fundamental to application development, and arrays represent one of the most essential data structures for t2his purpose. A frequent requirement involves iterating through these collections to execute specific logic on individual items. While Copilot Studio serves as Microsoft's low-code platform for creating intelligent conversational agents, it currently lacks native looping functionality. Although a preview feature called "Loop through a list" has been introduced to handle list iteration, this capability remains in preview and hasn't reached general availability yet. In the meantime, developers need alternative approaches to manage and process collections effectively. This comprehensive guide provides a practical solution for this limitation while also exploring the upcoming "Loop through a list" preview feature.
 
- ## A Practical Example
+## A Practical Example
  AssetGenie helps marketing teams quickly generate multiple content pieces for their campaigns. Users simply enter their campaign topic (like "AI-powered CRM software launch") and select which marketing assets they need from a checklist - email templates, LinkedIn posts, press releases, product one-pagers, etc. The bot then processes each selected item individually, generating customized content for every chosen asset type. This scenario perfectly demonstrates the need for looping in Copilot Studio, as we need to iterate through the user's multiple selections and generate content for each one.
  
  ![alt text](/assets/image.png)
@@ -263,7 +263,7 @@ beginDialog:
       id: idBfht
 ```
 
-### Preview feature: 
+### Preview feature 
 
 A preview feature "Loop through a list" is available. To try this, head to "https://copilotstudio.preview.microsoft.com/"
 ![alt text](/assets/image-4.png)

@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-### [📄 Download Profile](./assets/documents/ProfileSandeepAngara.pdf)
+### [📄 Download Profile](/assets/documents/ProfileSandeepAngara.pdf)
 
 # Sandeep Angara
 ` Microsoft Power Platform | Business Apps | Copilots & Agents `

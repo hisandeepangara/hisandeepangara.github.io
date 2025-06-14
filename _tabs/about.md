@@ -1,11 +1,13 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
 
+### [Download profile]("https://drive.google.com/file/d/1oYpiyLAeZgRg4naa7gsqP_j-j3hROi-b/view?usp=drive_link")
+
 # Sandeep Angara
-` Power Platform | Dynamics 365 Fin & Ops | Web Technologies `
+` Microsoft Power Platform | Business Apps | Copilots & Agents `
 
 A seasoned business applications developer specializing in the Microsoft Power Platform, building impactful low-code solutions. My expertise extends to customizing and integrating Dynamics 365 Finance & Operations. I'm particularly excited about building custom agents with Copilot Studio. 
 

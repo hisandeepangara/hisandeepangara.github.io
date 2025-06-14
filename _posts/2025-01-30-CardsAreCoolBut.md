@@ -6,7 +6,7 @@ date: 30-01-2025
 categories: [Copilot Studio, Adaptive Cards]
 tags: [copilotstudio]
 ---
-![alt text](/assets/image.png)
+![alt text](/assets/blog1_hero.png)
 
 ## Challenge
 Makers and developers use Adaptive Cards to provide users with an interactive UI in Copilot Studio. While messages with Adaptive Cards work fine, issues arise when using them to ask questions. When the **"Ask with Adaptive Card"** node is used to collect input, the card naturally waits for the user to respond. However, users might not realize that the card is awaiting their input. As a result, some may start entering other prompts, trying to shift the conversation to a different topic or action within Copilot Studio. This can lead to failures if certain settings are not enabled and necessary tweaks are not made.

@@ -6,7 +6,7 @@ date: 23-08-2025
 categories: [Copilot Studio]
 tags: [copilotstudio, resourcehub, documentation, roadmap]
 ---
-![alt text](/assets/MCS%20resources.png)
+![alt text](/assets/mcs_resources.png)
 
 <style>
   table { border-collapse: collapse; width: 100%; margin-bottom: 1.5em; }
@@ -35,15 +35,15 @@ tags: [copilotstudio, resourcehub, documentation, roadmap]
   <tbody>
     <tr>
       <td><a href="https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/">Create & Extend Custom Copilots</a></td>
-      <td>Microsoft Learn path for creating and extending copilots.</td>
+      <td>MS Learning path for creating and extending copilots.</td>
     </tr>
     <tr>
       <td><a href="https://learn.microsoft.com/en-us/training/paths/build-foundation-extend-microsoft-365-copilot/">Build Foundation for M365 Copilot</a></td>
-      <td>Training on integrating copilots with Microsoft 365 workloads.</td>
+      <td>MS Learning path on integrating copilots with Microsoft 365 workloads.</td>
     </tr>
     <tr>
       <td><a href="https://learn.microsoft.com/en-us/training/paths/extend-microsoft-365-copilot-studio/">Extend M365 with Copilot Studio</a></td>
-      <td>Guided learning to extend M365 capabilities using Copilot Studio.</td>
+      <td>MS Learning path to extend M365 capabilities using Copilot Studio.</td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ tags: [copilotstudio, resourcehub, documentation, roadmap]
     </tr>
     <tr>
       <td><a href="https://microsoft.github.io/copilot-camp/">Copilot Developer Camp</a></td>
-      <td>Hands-on learning modules for Copilot Studio developers.</td>
+      <td>Hands-on learning modules on Maker, Build, Extend paths</td>
     </tr>
 </table>
 
@@ -207,6 +207,21 @@ tags: [copilotstudio, resourcehub, documentation, roadmap]
     </tr>
   </tbody>
 </table>
+
+
+## SMEs / Resource Persons
+- [Dewain Robinson](https://www.linkedin.com/in/dewain-robinson-6ba8932/)
+- [Remi Dyon](https://www.linkedin.com/in/remidyon/)
+- [April Dunnam](https://www.linkedin.com/in/aprildunnam/)
+- [Lisa Crosbie](https://www.linkedin.com/in/lisa-crosbie/)
+- [Henry Jammes](https://www.linkedin.com/in/henryjammes/)
+- [Daniel Christian](https://www.linkedin.com/in/danchristian19/)
+- [Daniel Laskewitz](https://www.linkedin.com/in/laskewitz/)
+- [Damien Bird](https://www.linkedin.com/in/damobird365/)
+- [Karl-Johan Spiik](https://www.linkedin.com/in/karl-johan-spiik/)
+- [Josh Cook](https://www.linkedin.com/in/flowaltdelete/)
+- [Shane Young](https://www.linkedin.com/in/cincyshane/)
+- [Matthew Devaney](https://www.linkedin.com/in/matthew-devaney/)
 
 ---
 

@@ -33,7 +33,9 @@ Below is an example of a record data type. Variable and string literals can be u
 ### Pass a record type to Flow
 Following expression can be used to pass a record data type to a flow inputs
 
-` Text(JSON(Topic.userRecord, JSONFormat.Compact)) `
+`
+Text(JSON(Topic.userRecord, JSONFormat.Compact))
+`
 
 This will convert a JSON record to JSON string, which a power automate flow can accept as a input parameter.
 

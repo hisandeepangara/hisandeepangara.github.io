@@ -49,9 +49,9 @@ This approach works dynamically, capturing relevant information whenever it appe
     Match(System.Activity.Text, "SKU-\d+", MatchOptions.IgnoreCase).FullMatch
 
     ```
+The topic setup is as follows
 
-    The topic setup is as follows
-    ![alt text](/assets/fx6.png)
+![alt text](/assets/fx6.png)
 
 
 ## Use Case #1: Create & Pass Records From Copilot Studio to Flows

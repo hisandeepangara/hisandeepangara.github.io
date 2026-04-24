@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Know Your Search: Native Knowledge vs HTTP Connector in Copilot Studio
+title: Know Your Search - Native Knowledge vs HTTP Connector in Copilot Studio
 description: Azure AI Search can plug directly into Copilot Studio as a knowledge source — but when you need field-level filtering, the HTTP connector is your friend.
 date: 25-04-2026
 categories: [Copilot Studio, Azure AI Search]

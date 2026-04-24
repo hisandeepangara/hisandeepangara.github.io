@@ -81,7 +81,7 @@ Inside a topic, add an **HTTP Request** action and configure it as follows:
 - **Semantic search**: Pass a named `semanticConfiguration` to use your
   pre-configured semantic ranker for better relevance
 - **Field filtering**: Use the `filter` parameter with OData expressions to scope
-  results — e.g., filter by `podGUID`, document type, category, or any indexed
+  results — e.g., filter by `userID`, document type, category, or any indexed
   field
 - **Query flexibility**: Control `queryType`, `top`, `select`, and other
   parameters that the native knowledge integration doesn't expose

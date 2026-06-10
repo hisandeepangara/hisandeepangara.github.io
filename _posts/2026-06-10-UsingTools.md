@@ -55,36 +55,6 @@ Every major LLM provider ships a proper solution for this. It's called **tools**
 Most LLM APIs support a feature called **tools** — also referred to as *function calling* depending on the provider. The concept is simple.
 
 Instead of asking the model to *write something*, you give it a named function with a defined schema and ask it to *call that function* with the right values. You're not asking for a response. You're handing the model a form and asking it to fill it in.
-
-For the support ticket example, the tool definition would look like this:
-
-```json
-{
-  "name": "classify_ticket",
-  "description": "Classify a customer support ticket",
-  "input_schema": {
-    "type": "object",
-    "properties": {
-      "category": {
-        "type": "string",
-        "description": "Ticket category — e.g. Billing, Technical, Account"
-      },
-      "priority": {
-        "type": "string",
-        "description": "Priority level — Low, Medium, or High"
-      },
-      "summary": {
-        "type": "string",
-        "description": "One sentence summary of the issue"
-      }
-    },
-    "required": ["category", "priority", "summary"]
-  }
-}
-```
-
-The model doesn't write a response anymore. It fills the schema. The API returns the values in a structured block — typed, clean, no fences, no "Sure! Here's your JSON."
-
 The key addition alongside the tool definition is forcing the model to always use it:
 
 - Anthropic: `"tool_choice": { "type": "tool", "name": "classify_ticket" }`
@@ -92,6 +62,73 @@ The key addition alongside the tool definition is forcing the model to always us
 - Gemini: `"tool_config": { "function_calling_config": { "mode": "ANY" } }`
 
 Without this, the model can still decide to answer in text if it feels the question doesn't warrant a tool call. With it, the output shape is guaranteed every single time.
+
+
+
+## Seeing It in Action
+Here is a complete API call for the support ticket example. You define the tool, force the model to use it via `tool_choice`, and pass the ticket text as the user message.
+
+**Request:**
+
+​```json
+{
+  "model": "claude-haiku-4-5-20251001",
+  "max_tokens": 256,
+  "tools": [
+    {
+      "name": "classify_ticket",
+      "description": "Classify a customer support ticket",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "Ticket category — e.g. Billing, Technical, Account"
+          },
+          "priority": {
+            "type": "string",
+            "description": "Priority level — Low, Medium, or High"
+          },
+          "summary": {
+            "type": "string",
+            "description": "One sentence summary of the issue"
+          }
+        },
+        "required": ["category", "priority", "summary"]
+      }
+    }
+  ],
+  "tool_choice": { "type": "tool", "name": "classify_ticket" },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Classify the following support ticket.\n\nTicket: I have been charged twice for the same subscription this month. I checked my bank statement and there are two identical transactions from your company on the 3rd and the 4th. Please refund the duplicate charge immediately."
+    }
+  ]
+}
+​```
+
+**Response:**
+
+​```json
+{
+  "content": [
+    {
+      "type": "tool_use",
+      "id": "toolu_02XyZaBc",
+      "name": "classify_ticket",
+      "input": {
+        "category": "Billing",
+        "priority": "High",
+        "summary": "Customer was charged twice for the same subscription and is requesting a refund for the duplicate transaction."
+      }
+    }
+  ],
+  "stop_reason": "tool_use"
+}
+​```
+
+No preamble, no fences, no "Sure! Here's your answer." Just `content[0].input` with the three fields — ready to use directly in the next step of your flow. Notice `stop_reason` is `tool_use` and not `end_turn` — that's how you know the model fulfilled the request through the tool rather than writing a text response.
 
 ---
 

@@ -69,7 +69,7 @@ Without this, the model can still decide to answer in text if it feels the quest
 Here is a complete API call for the support ticket example. You define the tool, force the model to use it via `tool_choice`, and pass the ticket text as the user message.
 
 **Request:**
-
+```
 ​```json
 {
   "model": "claude-haiku-4-5-20251001",
@@ -107,9 +107,10 @@ Here is a complete API call for the support ticket example. You define the tool,
   ]
 }
 ​```
+```
 
 **Response:**
-
+```
 ​```json
 {
   "content": [
@@ -127,6 +128,7 @@ Here is a complete API call for the support ticket example. You define the tool,
   "stop_reason": "tool_use"
 }
 ​```
+```
 
 No preamble, no fences, no "Sure! Here's your answer." Just `content[0].input` with the three fields — ready to use directly in the next step of your flow. Notice `stop_reason` is `tool_use` and not `end_turn` — that's how you know the model fulfilled the request through the tool rather than writing a text response.
 
